@@ -1,20 +1,17 @@
 #include <unistd.h>
 #include "main.h"
-
 /**
- * include "main.h"
- * -putchar -write the character c to stdout
- *  -ac: the charater to print 
- *  return: on successful
- *  on errono: -1 is retune , and 
- */
-
+* _putchar - writes the character c to stdout 
+* @c: The character to print
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
 
 int main(void)
 {
 	char cy[8] = "_putchar";
-
-		int i = 0;
+	int i = 0;
 	char c;
 	while (i <= 8)
 	{
