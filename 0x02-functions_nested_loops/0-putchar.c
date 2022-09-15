@@ -10,7 +10,7 @@
  */
 
 
-int Main(void)
+int main(void)
 {
 	char cy[8] = "_putchar";
 
