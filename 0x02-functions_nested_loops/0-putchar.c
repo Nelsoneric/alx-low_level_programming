@@ -2,8 +2,8 @@
 #include "main.h"
 /**
 * #include "main.h"
-* 
-* _putchar - writes the character c to stdout 
+*
+* _putchar - writes the character c to stdout
 * @c: The character to print
 *
 * Return: On success 1.
@@ -11,23 +11,23 @@
 */
 int main(void)
 {
-	char cy[8] = "_putchar";
-	int i = 0;
-	char c;
+        char cy[8] = "_putchar";
+        int i = 0;
+        char c;
 
-	while (i <= 8)
-	{
-		c = cy[i];
+        while (i <= 8)
+        {
+                c = cy[i];
 
-		_putchar(c);
-		i++
-	}
-	_putchar('\n');
-	return(0);
+                _putchar(c);
+                i++
+        }
+        _putchar('\n');
+        return(0);
 }
 int _putchar (char c)
-{ 
-	return (write(1, &c, 1));
+{
+        return (write(1, &c, 1));
 }
-	
+
 
